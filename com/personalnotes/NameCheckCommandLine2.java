@@ -14,8 +14,10 @@ public class NameCheckCommandLine2 {
                             args[i].charAt(0)=='I' || args[i].charAt(0)=='i' ||
                             args[i].charAt(0)=='O' || args[i].charAt(0)=='o' ||
                             args[i].charAt(0)=='U' || args[i].charAt(0)=='u')
-            {vowel +=1;
-            } else {consonent +=1;
+            {
+                vowel +=1;
+            } else {
+                consonent +=1;
             }
         }
 

@@ -10,8 +10,8 @@ public class PerimeterOfShapes {
         System.out.println("Tanay | 1955991593");
         System.out.println("------------------");
 
+//        Inputs
         Scanner sc = new Scanner(System.in);
-
         System.out.print("Enter the radius for circle: ");
         r = sc.nextDouble();
 
@@ -22,10 +22,12 @@ public class PerimeterOfShapes {
         h = sc.nextDouble();
         w = sc.nextDouble();
 
+//        Calculations
         perimeterC = 2 * (pi * r);
         perimeterS = 4 * s;
         perimeterR = 2 * (w + h);
 
+//        Printing
         System.out.println("Perimeter or the circle is: " + perimeterC);
         System.out.println("Perimeter or the square is: " + perimeterS);
         System.out.println("Perimeter or the rectangle is: " + perimeterR);
